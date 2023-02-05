@@ -2,7 +2,7 @@
 ## 競賽說明
 本比賽目的為建立信用卡反盜刷偵測模型，為此參賽者必須建立二分類模型，判斷該筆信用卡交易是否為盜刷交易
 ## 參賽名次
-![image]([https://github.com/TimKuo38/Credit-card-fraud-detection/blob/master/%E5%8F%83%E8%B3%BD%E5%90%8D%E6%AC%A1.png](https://github.com/TimK38/Credit-card-fraud-detection/blob/main/%E5%8F%83%E8%B3%BD%E5%90%8D%E6%AC%A1.png])
+![image](https://github.com/TimKuo38/Credit-card-fraud-detection/blob/master/%E5%8F%83%E8%B3%BD%E5%90%8D%E6%AC%A1.png](https://github.com/TimK38/Credit-card-fraud-detection/blob/main/%E5%8F%83%E8%B3%BD%E5%90%8D%E6%AC%A1.png)
 ## 資料說明
 * 本次競賽提供訓練集(train.csv)和測試集(test.csv)兩張資料表,訓練集共
 1,521,787 筆,測試集共 421,665 筆。
