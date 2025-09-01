@@ -1,0 +1,176 @@
+.ipynb_checkpoints
+# ===== OS / Editor cruft =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.tmp
+*.temp
+
+# ===== IDE / Project files =====
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytype/
+.pyre/
+.tox/
+.ipynb_checkpoints/
+
+# (可選) 若不想把 Notebook 也傳上來，取消註解下一行
+# *.ipynb
+
+# ===== Node / Frontend =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.next/
+out/
+coverage/
+
+# ===== Secrets / Credentials =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+
+# ===== Data folders (常見資料目錄) =====
+data/
+datasets/
+dataset/
+downloads/
+tmp/
+cache/
+.cache/
+logs/
+
+# ===== Tabular / Dataset files =====
+*.csv
+*.tsv
+*.psv
+*.csv.gz
+*.csv.bz2
+*.csv.zip
+*.parquet
+*.feather
+*.orc
+*.avro
+*.arrow
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.mat
+*.sav
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.dump
+*.sql
+*.jsonl
+# (可選) 若專案含設定用 JSON，請勿忽略；如果 JSON 多為資料檔才需要忽略
+# *.json
+
+# ===== Spreadsheet / Office =====
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.ods
+*.numbers
+*.pptx
+*.docx
+
+# ===== Images / Media (避免上傳大圖與二進位) =====
+*.jpg
+*.jpeg
+#*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.ico
+*.psd
+*.ai
+*.eps
+*.raw
+*.cr2
+*.nef
+*.heic
+*.heif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# ---- 白名單：允許文件站資產（依需求調整）----
+!docs/**/assets/
+!docs/**/assets/**
+
+# ===== Archives =====
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# ===== Terraform / IaC =====
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# ===== Kubernetes (依需求調整) =====
+kubeconfig
+kubeconfig.yaml
+
+# ===== Sphinx / MkDocs / Docs build =====
+docs/_build/
+site/
+
+# ===== Others you likely don't want in Git =====
+*.sarif
